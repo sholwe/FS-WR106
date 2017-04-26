@@ -8,7 +8,7 @@ The stock firmware blob above is based on the OpenWRT WG3526 firmware build, but
 
 # Partition Layout on FS-WR106 OEM build:
 
-[    2.250000] Creating 4 MTD partitions on "spi32766.0":
+<pre>[    2.250000] Creating 4 MTD partitions on "spi32766.0":
 [    2.260000] 0x000000000000-0x000000030000 : "u-boot"
 [    2.260000] 0x000000030000-0x000000040000 : "u-boot-env"
 [    2.270000] 0x000000040000-0x000000050000 : "factory"
@@ -20,5 +20,5 @@ The stock firmware blob above is based on the OpenWRT WG3526 firmware build, but
 [    2.330000] 0x00000017e12e-0x000001000000 : "rootfs"
 [    2.340000] mtd: device 5 (rootfs) set to be root filesystem
 [    2.340000] 1 squashfs-split partitions found on MTD device rootfs
-[    2.350000] 0x0000006a0000-0x000001000000 : "rootfs_data"
+[    2.350000] 0x0000006a0000-0x000001000000 : "rootfs_data"</pre>
 
