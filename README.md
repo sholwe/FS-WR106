@@ -6,7 +6,7 @@ The file *FS-WR106-stock-wrt-1505.zip* is a stock OpenWRT Chaos Carrier 15.05 bu
 
 The stock firmware blob above is based on the OpenWRT WG3526 firmware build, but it holds the MAC address in another location.
 
-The file *lede-ramips-mt7621-zbt-we1326-squashfs-sysupgrade.bin* is my build of LEDE master on 2017-05-17, with a custom target, LuCI-ssl, and a few other changes inspired by @hnyman's WNDR builds.
+The file *lede-ramips-mt7621-zbt-we1326-squashfs-sysupgrade.bin* is my build from LEDE master (r4188-e96a9a9af8) on 2017-05-25, with custom target, LuCI-ssl, and a few other changes inspired by @hnyman's WNDR builds.
 
 # Partition Layout on FS-WR106 OEM build:
 
