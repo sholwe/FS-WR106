@@ -1,6 +1,6 @@
 # FS-WR106
 
-This is eventually going to be a repository of my personal LEDE builds for the FS-WR106.  For now it holds a stock 15.05 OpenWRT firmware.
+This was eventually going to be a repository of my personal LEDE builds for the FS-WR106.
 
 The file *FS-WR106-stock-wrt-1505.zip* is a stock OpenWRT Chaos Carrier 15.05 build from the manufacturer.  They have not offered patches against stock 15.05 to date.
 
@@ -33,3 +33,7 @@ for USB see https://openwrt.org/docs/user-guide/usb-drives
 [    2.340000] 1 squashfs-split partitions found on MTD device rootfs
 [    2.350000] 0x0000006a0000-0x000001000000 : "rootfs_data"</pre>
 
+
+Update: 3/2019: This works natively with OpenWRT; use either the WG3526 build depending on your flash, or the WE1326 build, which mine is currently using:  https://openwrt.org/toh/hwdata/zbt/zbt_we1326
+
+This is primarily just leftover if anyone wants the old 15.05 build which was completely stable with the proprietary mt76 driver.
